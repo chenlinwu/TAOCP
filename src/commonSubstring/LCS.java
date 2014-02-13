@@ -1,4 +1,4 @@
-package commonSubsequence;
+package commonSubstring;
 
 public class LCS {
 	//if all characters in shortS appear in longS
