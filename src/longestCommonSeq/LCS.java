@@ -2,7 +2,7 @@ package longestCommonSeq;
 
 public class LCS {
 
-	public static String fingLCS(String A, String B) {
+	public static String findLCS(String A, String B) {
 		int[][] dPTable = new int[A.length()+1][B.length()+1];
 		for (int i = 0; i < dPTable.length; i++) {
 			for (int j = 0; j < dPTable[0].length; j++) {
@@ -48,7 +48,7 @@ public class LCS {
 		
 		String a = "oewifnfn.abcd";
 		String b = "oeifnabd";
-		System.out.println(fingLCS(a, b));
+		System.out.println(findLCS(a, b));
 		
 	}
 
