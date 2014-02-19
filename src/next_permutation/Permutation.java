@@ -1,6 +1,6 @@
 package next_permutation;
 
-import javax.xml.namespace.QName;
+
 
 
 public class Permutation {
